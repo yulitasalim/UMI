@@ -7,7 +7,7 @@ Semester Ganjil 2018
 @author: Taufik Sutanto
 """
 
-import numpy as np, time
+import numpy as np, time, warnings
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
@@ -17,11 +17,9 @@ from sklearn.utils import check_random_state
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.metrics.pairwise import pairwise_distances_argmin
 from sklearn.metrics import silhouette_samples, silhouette_score
-import warnings
-from sklearn import cluster, datasets
+from sklearn import cluster#, datasets
 from sklearn.preprocessing import StandardScaler
 from itertools import cycle, islice
-
 np.random.seed(0)
 
 
