@@ -76,7 +76,7 @@ def LoadStopWords(lang='en'):
         #lemmatizer = spacy.lang.en.English
         lemmatizer = lemmatizer()
         #lemmatizer = spacy.load('en')
-        stops =  set([t.strip() for t in LoadDocuments(file = 'data/stopwords_eng.txt')[0]])
+        stops =  set([t.strip() for t in LoadDocuments(file = 'data/stopwords_en.txt')[0]])
     elif L == 'id' or L == 'indonesia' or L=='indonesian':
         from spacy.lang.id import Indonesian
         #lemmatizer = spacy.lang.id.Indonesian
@@ -417,7 +417,7 @@ def LoadStopWords(lang='en'):
         #lemmatizer = spacy.lang.en.English
         lemmatizer = lemmatizer()
         #lemmatizer = spacy.load('en')
-        stops =  set([t.strip() for t in LoadDocuments(file = 'data/stopwords_eng.txt')[0]])
+        stops =  set([t.strip() for t in LoadDocuments(file = 'data/stopwords_en.txt')[0]])
     elif L == 'id' or L == 'indonesia' or L=='indonesian':
         from spacy.lang.id import Indonesian
         #lemmatizer = spacy.lang.id.Indonesian
